@@ -2,7 +2,7 @@
 
 <template>
     <div>
-        <div class="greeting">Hello {{name}}{{exclamationMarks}}</div>
+        <div class="greeting">Hello 油价 {{name}}{{exclamationMarks}}</div>
         <button @click="decrement">-</button>
         <button @click="increment">+</button>
         <div>test</div>
@@ -38,5 +38,6 @@ export default Vue.extend({
 <style>
 .greeting {
     font-size: 20px;
+    color: red;
 }
 </style>

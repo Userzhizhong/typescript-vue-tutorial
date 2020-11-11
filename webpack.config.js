@@ -9,6 +9,7 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
+  mode:"development",
   module: {
     rules: [
       {
